@@ -1,21 +1,39 @@
 
 <html lang="en">
 <head>
+    <Style>
+        .header1{
+            margin: 0;
+            padding: 10px;
+            background-color:yellowgreen;
+            text-align: center;
+
+        }
+        .bodyClass{
+            margin-left: 20px;
+            padding: 0;
+        }
+        .tableStyle{
+            background-color:yellowgreen;
+        }
+    </Style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyPortofolio</title>
 </head>
 <body>
     <header>
-        <h1>Chamulith Rashan</h1>
-        <p>University Student  | Software Engineering</p>
+        <div class="header1">
+            <h1>Chamulith Rashan</h1>
+            <p>University Student  | Software Engineering</p>
+        </div>
     </header>
-    <hr/>
-    <h2>About Me</h2>
+    <div class="bodyClass">
+    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About Me</h2>
     <p>I am a student at the University of Sri Jayawardhanapura,Pursing a Physical Science degree with Pure Mathematic and Computer Science</p>
     <hr/>
     <section>
-        <h2>Skills</h2>
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Skills</h2>
         <ul>
             <li>C programming</li>
             <li>Java Programming</li>
@@ -27,9 +45,9 @@
     </section>
     <hr/>
     <section>
-        <h2>Projects</h2>
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Projects</h2>
         <table border="1">
-            <tr>
+            <tr class="tableStyle">
                 <th>Project Name</th>
                 <th>Description</th>
                 <th>Technology Used</th>
@@ -52,7 +70,7 @@
         </table>
     </section>
     <section>
-        <h2>Contact Me</h2>
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Contact Me</h2>
         <form>
             <label for="name">Name:</label><br>
             <input type="text"id="name"name="name">
@@ -71,7 +89,8 @@
         <a href="https://github.com/ChamulithaRashan"target="_blank">GitHub</a>
         <br>
         <a href="https://lk.linkedin.com/in/chamulitha-wimalagunasekara-692149372"target="_blank">LinkedIn</a>
-        <p>&copy; 2026 Chamulitha Rashan</p>
+        <p>&copy 2026 Chamulitha Rashan</p>
     </footer>
 </body>
+</div>
 </html>
